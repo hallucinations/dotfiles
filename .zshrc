@@ -68,9 +68,10 @@ source $ZSH/oh-my-zsh.sh
 export ECLIPSE_HOME=$HOME/Source/adt-bundle/eclipse 
 export ANDROID_SDK=$HOME/Source/adt-bundle/sdk
 export ANDROID_SWT=/usr/share/java
+export RVM=$HOME/.rvm/bin
 
 # User preferences
-export PATH=$HOME/bin:$ECLIPSE_HOME:$ANDROID_SDK/platform-tools/:$ANDROID_SDK/tools/:$PATH
+export PATH=$HOME/bin:$RVM:$ECLIPSE_HOME:$ANDROID_SDK/platform-tools/:$ANDROID_SDK/tools/:$PATH
 export EDITOR="vim"
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -80,3 +81,4 @@ export EDITOR="vim"
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+
