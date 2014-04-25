@@ -68,10 +68,13 @@ source $ZSH/oh-my-zsh.sh
 export ECLIPSE_HOME=$HOME/Source/adt-bundle/eclipse 
 export ANDROID_SDK=$HOME/Source/adt-bundle/sdk
 export ANDROID_SWT=/usr/share/java
+
+# Rails configuration
 export RVM=$HOME/.rvm/bin
+export KALIBRO_GATEKEEPER=$HOME/Source/kalibro_gatekeeper
 
 # User preferences
-export PATH=$HOME/bin:$RVM:$ECLIPSE_HOME:$ANDROID_SDK/platform-tools/:$ANDROID_SDK/tools/:$PATH
+export PATH=$HOME/bin:$RVM:$KALIBRO_GATEKEEPER:$ECLIPSE_HOME:$ANDROID_SDK/platform-tools/:$ANDROID_SDK/tools/:$PATH
 export EDITOR="vim"
 
 # export MANPATH="/usr/local/man:$MANPATH"
