@@ -4,6 +4,19 @@
     - "~"
 - 
   link: 
+    ~/.config/compton.conf: config/compton.conf
+    ~/.config/dunst: 
+      create: true
+      path: config/dunst/
+    ~/.config/i3: 
+      create: true
+      path: config/i3/
+    ~/.config/i3status: 
+      create: true
+      path: config/i3status/
+    ~/.config/livestreamer: 
+      create: true
+      path: config/livestreamer/
     ~/.config/mpv: 
       create: true
       path: config/mpv/
@@ -18,6 +31,7 @@
     ~/.vimrc: vimrc
     ~/.ssh: ssh
     ~/.zshrc: zshrc
+    ~/bin: bin/
 - 
   shell: 
     - 
