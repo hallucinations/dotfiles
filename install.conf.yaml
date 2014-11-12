@@ -14,9 +14,6 @@
     ~/.config/i3status: 
       create: true
       path: config/i3status/
-    ~/.config/livestreamer: 
-      create: true
-      path: config/livestreamer/
     ~/.config/mpv: 
       create: true
       path: config/mpv/
