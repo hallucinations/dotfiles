@@ -25,7 +25,7 @@ alias oh-my-zsh="cd ~/.oh-my-zsh"
 alias vimconfig="gvim ~/.vimrc"
 alias gvimconfig="gvim ~/.gvimrc"
 alias i3config="gvim ~/.config/i3/config"
-alias updateplugins="cd ~/.dotfiles; git submodule update --init --recursive --remote; cd -"
+alias updateplugins="cd ${DOTFILES_PATH}; git submodule update --init --recursive --remote; cd -"
 alias charginmahlazer="source ~/.zshrc"
 
 # Environmental vars
