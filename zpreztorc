@@ -38,8 +38,7 @@ zstyle ':prezto:load' pmodule \
   'git' \
   'history-substring-search' \
   'syntax-highlighting' \
-  'pacman' \
-  'completion'
+  'pacman' 
 
 #
 # Editor
