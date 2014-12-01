@@ -19,6 +19,9 @@
     ~/.ssh: ssh
     ~/.tmux.conf: tmux.conf
     ~/.zshrc: zshrc
+    ~/.zlogin: zlogin
+    ~/.zprezto: zprezto
+    ~/.zpreztorc: zpreztorc
 - 
   shell: 
     - 
