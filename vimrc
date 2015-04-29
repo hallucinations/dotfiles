@@ -25,6 +25,7 @@ Plugin 'mbbill/undotree'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'chrisbra/csv.vim'
 Plugin 'vim-scripts/restore_view.vim'
+Plugin 'pangloss/vim-javascript'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
