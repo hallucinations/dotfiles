@@ -26,7 +26,7 @@ Plugin 'plasticboy/vim-markdown'
 Plugin 'chrisbra/csv.vim'
 Plugin 'vim-scripts/restore_view.vim'
 Plugin 'pangloss/vim-javascript'
-
+Plugin 'jpo/vim-railscasts-theme'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -58,3 +58,5 @@ set background=dark		" default terminal background
 set clipboard=unnamedplus	" alias unnamed register to the + register
 set smartcase			" only be case sensitive when it matters!
 set mouse=a                     " in most terminal emulators this works fine!
+
+colorscheme railscasts 
