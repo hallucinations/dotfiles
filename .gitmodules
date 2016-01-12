@@ -20,3 +20,7 @@
 	path = zgen
 	branch = master
 	url = https://github.com/tarjoilija/zgen.git
+
+[submodule "spacemacs-module"]
+	path = spacemacs-module
+	url = https://github.com/syl20bnr/spacemacs

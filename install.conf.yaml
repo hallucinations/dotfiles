@@ -20,7 +20,8 @@
     ~/.tmux.conf: tmux.conf
     ~/.zshrc: zshrc
     ~/.zshenv: zshenv
-    ~/.emacs.d: emacs.d/
+    ~/.emacs.d: spacemacs-module/
+    ~/.spacemacs: spacemacs
 - 
   shell: 
     - 
