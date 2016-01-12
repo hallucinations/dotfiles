@@ -20,6 +20,7 @@
     ~/.tmux.conf: tmux.conf
     ~/.zshrc: zshrc
     ~/.zshenv: zshenv
+    ~/.emacs.d: emacs.d/
 - 
   shell: 
     - 
