@@ -13,7 +13,6 @@
     ~/.dotfiles: ""
     ~/.gitconfig: gitconfig
     ~/.gitignore_global: gitignore_global
-    ~/.gvimrc: gvimrc
     ~/.vim: vim/
     ~/.vimrc: vimrc
     ~/.ssh: ssh
